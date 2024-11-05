@@ -1,0 +1,14 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ doc.make }} {{ doc.model }}</h1>
+
+<h2 class="muted">YEAR: {{doc.year}}</h2>
+
+<img src="{{doc.vehicle_image}}" />
+<br>    
+
+<a href="/ride-booking/new?vehicle={{doc.name}}" class="btn btn-info">Book Now</a>
+{% endblock %}
+
+<!-- this is a sample default web page template -->

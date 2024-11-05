@@ -1,0 +1,29 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-10-24 14:45:06.125773",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Order",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<a>{{ doc.get_url()}}</a>\n",
+ "message_type": "Markdown",
+ "minutes_offset": 0,
+ "modified": "2024-10-24 15:10:37.260850",
+ "modified_by": "Administrator",
+ "module": "Learnfrappe",
+ "name": "New Ride Booking",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "New Booking"
+}
